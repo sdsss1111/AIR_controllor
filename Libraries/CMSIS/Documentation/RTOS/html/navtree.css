@@ -1,0 +1,101 @@
+#nav-tree ul {
+list-style:none outside none;
+margin:0;
+padding:0;
+}
+
+#nav-tree li {
+white-space:nowrap;
+margin:0;
+padding:0;
+}
+
+#nav-tree .plus {
+margin:0;
+}
+
+#nav-tree .selected {
+background-image:url(tab_a.png);
+background-repeat:repeat-x;
+color:#fff;
+text-shadow:0 1px 1px rgba(0,0,0,1.0);
+}
+
+#nav-tree img {
+border:0;
+vertical-align:middle;
+margin:0;
+padding:0;
+}
+
+#nav-tree a {
+text-decoration:none;
+outline:none;
+margin:0;
+padding:0;
+}
+
+#nav-tree .label a {
+padding:2px;
+}
+
+#nav-tree .selected a {
+text-decoration:none;
+color:#fff;
+margin:0;
+padding:2px;
+}
+
+#nav-tree {
+font-size:14px;
+overflow:auto;
+background-image:url(nav_h.png);
+background-repeat:repeat-x;
+background-color:#F9FAFC;
+padding:0;
+}
+
+#doc-content {
+overflow:auto;
+display:block;
+margin:0;
+padding:0;
+}
+
+#side-nav {
+display:block;
+position:absolute;
+left:0;
+width:300px;
+margin:0;
+padding:0 6px 0 0;
+}
+
+.ui-resizable .ui-resizable-handle {
+display:block;
+}
+
+.ui-resizable-e {
+background:url(ftv2splitbar.png) repeat scroll right center transparent;
+cursor:e-resize;
+height:100%;
+right:0;
+top:0;
+width:6px;
+}
+
+.ui-resizable-handle {
+display:none;
+font-size:.1px;
+position:absolute;
+z-index:1;
+}
+
+#nav-tree-contents {
+margin:6px 0 0;
+}
+
+#nav-tree .children_ul,#nav-tree .label,#nav-tree .item {
+margin:0;
+padding:0;
+}

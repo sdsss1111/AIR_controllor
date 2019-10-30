@@ -1,0 +1,69 @@
+h1 {
+text-align:center;
+font-size:14pt;
+font-family:arial,helvetica;
+font-weight:700;
+padding:10px;
+}
+
+body {
+background-color:#fffeec;
+color:#000;
+font-size:8pt;
+font-family:arial,helvetica;
+}
+
+.menu {
+width:60%;
+border:solid 1px;
+background-color:#fffcd2;
+text-align:left;
+font-size:9pt;
+font-family:arial,helvetica;
+margin:4px;
+padding:2px;
+}
+
+div.menubox {
+width:25%;
+border:0;
+float:left;
+text-align:center;
+}
+
+.contentblock {
+width:60%;
+border:1px dotted;
+background-color:#fff;
+font-size:8pt;
+font-family:arial,helvetica;
+margin:4px;
+padding:2px;
+}
+
+p.intro {
+margin-left:20px;
+margin-right:20px;
+font-size:10pt;
+font-family:arial,helvetica;
+}
+
+p.clink {
+font-size:12pt;
+font-family:courier,monospace;
+text-align:center;
+}
+
+p.clink9 {
+font-size:9pt;
+font-family:courier,monospace;
+text-align:center;
+}
+
+p {
+padding-left:10px;
+}
+
+p.right {
+text-align:right;
+}

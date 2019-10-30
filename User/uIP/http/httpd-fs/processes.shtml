@@ -1,0 +1,20 @@
+%!: /header.html
+
+<h1>System processes</h1><br />
+%! processes %!: /footer.html
+
+<table width="100%">
+  <tr>
+    <th>ID</th>
+
+    <th>Name</th>
+
+    <th>Priority</th>
+
+    <th>Poll handler</th>
+
+    <th>Event handler</th>
+
+    <th>Procstate</th>
+  </tr>
+</table>

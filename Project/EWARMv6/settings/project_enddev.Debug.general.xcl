@@ -1,0 +1,15 @@
+"E:\IAR\arm\bin\armproc.dll" 
+
+"E:\IAR\arm\bin\armjlink2.dll" 
+
+"E:\资料\文件\程序\chengxu\空调程序链接基站20190807\IAR7_AirCo_Four_UPAndDownSUC0829\IAR7_AirCo_Four_UPAndDownSUC0829\Project\EWARMv6\Debug\Exe\project_enddev.out" 
+
+--plugin "E:\IAR\arm\bin\armbat.dll" 
+
+--device_macro "E:\IAR\arm\config\debugger\ST\STM32F1xx_XL.dmac" 
+
+--flash_loader "E:\IAR\arm\config\flashloader\ST\FlashSTM32F10xxB.board" 
+
+
+
+

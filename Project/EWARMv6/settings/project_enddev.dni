@@ -1,0 +1,212 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=1372693087
+[CodeCoverage]
+Enabled=_ 0
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[JLinkDriver]
+CStepIntDis=_ 0
+LeaveTargetRunning=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000000
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[RegisterFilter]
+FilePath=_ ""
+UseFilter=_ 0
+[Interrupts]
+Enabled=1
+[MemConfig]
+Base=1
+Manual=0
+Ddf=1
+TypeViol=0
+Stop=1
+[Simulator]
+Freq=10000000
+MultiCoreRunAll=1
+[struct_types]
+Fmt0=CHANNEL_SF-LBitrate	4	0
+Fmt1=CHL_NUM-up_dn_chl_num	4	0
+Fmt2=DN_DATA_TYPE-vaule	4	0
+Fmt3=EVENT_TYPE-value	4	0
+Fmt4=FCF-value	4	0
+Fmt5=JOIN_ACK_CHL_INFOR-chl_idl	4	0
+Fmt6=JOIN_REQ_OPT-value	4	0
+Fmt7=SERV_OR_BUSI-serv_or_busi	4	0
+Fmt8=STORE_BS_INFOR-bs_rssi	4	0
+Fmt9=struct BRAG_ACK-bs_addr	4	0
+Fmt10=struct BRAG_ACK-enddev_rltv_addr	4	0
+Fmt11=struct BRAG_ACK-len	4	0
+Fmt12=struct DNLD_DATA-bs_addr	4	0
+Fmt13=struct DNLD_DATA-counter	4	0
+Fmt14=struct DNLD_DATA-enddev_rltv_addr	4	0
+Fmt15=struct DNLD_DATA-len	4	0
+Fmt16=struct ENDDEV_JOINREQ-crc	4	0
+Fmt17=struct ENDDEV_JOINREQ-len	4	0
+Fmt18=struct ENDDEV_SYNCREQ-crc	4	0
+Fmt19=struct ENDDEV_SYNCREQ-len	4	0
+Fmt20=struct EVENTUP-len	4	0
+Fmt21=struct EVENTUP-lv2_len	4	0
+Fmt22=struct JOIN_ACK_INFOR-appnonce	4	0
+Fmt23=struct JOIN_ACK_INFOR-bs_addr	4	0
+Fmt24=struct JOIN_ACK_INFOR-enddev_addr	4	0
+Fmt25=struct JOIN_ACK_INFOR-enddev_rltv_addr	4	0
+Fmt26=struct STORE_BS_INFOR-bs_rssi	4	0
+[array_types]
+Fmt0=u8[6]	4	0
+Fmt1=uint16[2]	4	0
+Fmt2=uint16[5]	4	0
+Fmt3=uint64[8]	4	0
+Fmt4=uint8[16]	4	0
+Fmt5=uint8[18]	4	0
+Fmt6=uint8[254]	4	0
+Fmt7=uint8[2]	4	0
+Fmt8=uint8[3]	4	0
+Fmt9=uint8[4]	4	0
+Fmt10=uint8[64]	4	0
+Fmt11=uint8[6]	4	0
+Fmt12=uint8[8]	4	0
+Fmt13=uint8[9]	4	0
+Fmt14=uint8_t[10]	4	0
+Fmt15=uint8_t[11]	4	0
+Fmt16=uint8_t[13]	4	0
+Fmt17=uint8_t[18]	4	0
+Fmt18=uint8_t[200]	4	0
+Fmt19=uint8_t[20]	4	0
+Fmt20=uint8_t[22]	4	0
+Fmt21=uint8_t[254]	4	0
+Fmt22=uint8_t[25]	4	0
+Fmt23=uint8_t[2]	4	0
+Fmt24=uint8_t[4]	4	0
+Fmt25=uint8_t[50]	4	0
+Fmt26=uint8_t[64]	4	0
+Fmt27=uint8_t[6]	4	0
+Fmt28=uint8_t[7]	4	0
+Fmt29=uint8_t[8]	4	0
+Fmt30=uint8_t[9]	4	0
+[watch_formats]
+Fmt0={W}1:RSSI	3	0
+Fmt1={W}1:RecvBeacon	4	0
+Fmt2={W}1:crc_check	4	0
+Fmt3={W}1:crc_result	4	0
+Fmt4={W}1:current_snr	4	0
+Fmt5={W}1:gRssi	4	0
+Fmt6={W}1:temp	4	0
+[Trace1]
+Enabled=0
+ShowSource=1
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerLog]
+Title_0=I0
+Symbol_0=0 4 0
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[EventLog]
+Title_0=Ch3
+Symbol_0=0 4 1
+Title_1=Ch2
+Symbol_1=0 4 1
+Title_2=Ch1
+Symbol_2=0 4 1
+Title_3=Ch0
+Symbol_3=0 4 1
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\..\IAR7_AirCo_Four_UPAndDownSUC0814}.88.5" 0 0 1 "" 0 "" 0
+Bp1=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\User\up\src\up.c}.86.9" 0 0 1 "" 0 "" 0
+Bp2=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\User\key\src\key.c}.274.13" 0 0 1 "" 0 "" 0
+Bp3=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\User\key\src\key.c}.753.13" 0 0 1 "" 0 "" 0
+Count=4
+[Aliases]
+A0=_ "E:\四层板修改复用SPI\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c" ""
+A1=_ "E:\资料\文件\chengxu\IAR7x_EndDev_Change\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c" ""
+A2=_ "E:\资料\文件\chengxu\IAR7x_EndDev_Change\User\app.c" ""
+Count=3
+SuppressDialog=0

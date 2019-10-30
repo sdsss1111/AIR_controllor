@@ -1,0 +1,38 @@
+---- App_Printf Matches (28 in 3 files) ----
+App.c (user):*                2. (1) 凡是用到 printf 函数的全部通过函数 App_Printf 实现。
+App.c (user):*                   (2) App_Printf 函数做了信号量的互斥操作，解决资源共享问题。
+App.c (user):static void App_Printf (CPU_CHAR *format, ...);
+App.c (user)://          App_Printf("*********************************\r\n");
+App.c (user)://          App_Printf("无线接收测试--接收到数据--\r\n");
+App.c (user):            App_Printf("-- receive the beacon--\r\n");
+App.c (user):            App_Printf("-- receive the join ack--\r\n");
+App.c (user):               App_Printf(" %d ",gRfBuffer[i]);
+App.c (user)://    App_Printf("==================================================\r\n");
+App.c (user)://        App_Printf("------------------------------------\r\n");
+App.c (user)://        App_Printf("测试任务-AppTaskCom-运行中...\r\n");
+App.c (user)://           App_Printf("--send by --\r\n");
+App.c (user)://           App_Printf("------------------------------------\r\n");
+App.c (user):             App_Printf("--end device send sync req--\r\n");
+App.c (user):             App_Printf("--end device send join req--\r\n");
+App.c (user):             App_Printf(" %d ",framer->value[i]);
+App.c (user):          App_Printf("------------------------------------\r\n");
+App.c (user):          App_Printf("the length of local_RFSend cannot be NULL! \r\n");
+App.c (user):*	函 数 名: App_Printf
+App.c (user):void  App_Printf (CPU_CHAR *format, ...)
+App.c (user):    App_Printf("==================================================\r\n");
+App.c (user):    App_Printf("  优先级   使用栈  剩余栈  百分比   任务名\r\n");
+App.c (user):    App_Printf("  Prio     Used    Free    Per      Taskname\r\n");
+App.c (user):    App_Printf("==================================================\r\n");
+App.c (user):        App_Printf("   %2d    %5d    %5d    %02d%%     %s\r\n", ptcb->OSTCBPrio,
+Bsp.h (user\bsp):void App_Printf(CPU_CHAR *format, ...);
+Sx127x_protocol.c (user\radio\sx127x\src):    App_Printf("the receive data cannot be NULL!\r\n");
+Sx127x_protocol.c (user\radio\sx127x\src):    App_Printf("Packet Parse: CRC check error!\r\n");
+---- OS_NO_ERR Matches (2 in 1 files) ----
+App.c (user):176
+   if(err == OS_NO_ERR)
+     App_Printf("-- the start task is suspended!-- \r\n"); //系统启动失败，打印信息   
+    
+App.c (user):259
+    if(err == OS_NO_ERR)
+      App_Printf("-- the start task is suspended!-- \r\n"); //系统启动失败，打印信息   
+    
